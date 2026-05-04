@@ -1,0 +1,57 @@
+@import url(./global.css);
+
+header{
+    display: flex;
+    justify-content: center;
+    gap: 57px;
+    padding: 35px 0;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 25px;
+}
+
+.navbar{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    color: var(--color-secondary);
+    font-weight: 300;
+    font-size: 18px;
+    padding: 21px 0;
+    border-top: 1px solid gray;
+}
+
+.group-images-header{
+    display: flex;
+    gap: 18px;
+}
+
+main{
+    background-image: url(../assets/images/HomeBiolab.svg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.secao-biolab h1 span{
+    font-size: 64px;
+    font-weight: bold;
+    color: var(--color-secondary);
+}
+
+.secao-biolab h2 span{
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--color-green);
+}
+
+.botao1 a{
+    font-weight: bold;
+    font-size: 18px;
+}
+

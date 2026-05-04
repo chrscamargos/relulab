@@ -4,14 +4,18 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: var(--font-primary);
 }
 
 :root{
     --color-primary: #007AFF;
     --color-secondary: #00537F;
-    --color-green: #00537F;
+    --color-green: #7EC205;
     --color-alt-blue: #008FC4;
     --color-gray: #DBDBDB;
     --color-white: #FFFFFF;
     --color-black: #000000;
+
+    --font-primary: "Roboto";
+    --font-weight: 700
 }
