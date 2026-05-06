@@ -34,24 +34,71 @@ header nav{
 main{
     background-image: url(../assets/images/HomeBiolab.svg);
     height: 100vh;
+    /* display: none; */
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
-.secao-biolab h1 span{
+.secao-biolab{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 100px;
+    /* margin-right: 880px;;
+    margin-left: 140px; */
+
+}
+
+.biolab-title {
+    color: var(--color-secondary);
     font-size: 64px;
     font-weight: bold;
-    color: var(--color-secondary);
 }
 
-.secao-biolab h2 span{
-    font-size: 32px;
-    font-weight: bold;
+.biolab-title > span{
     color: var(--color-green);
+    width: 248px;
+    height: 50px;
+    font-size: 32px;
+    
 }
 
-.botao1 a{
+.btn1{
+    display: flex;
+    background: linear-gradient(to right, var(--color-alt-blue), var(--color-secondary));
+    color: var(--color-white);
     font-weight: bold;
     font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 19px 20px 19px 18px;
+    gap:  20px;
 }
+
+/* .icon-seta-horizontal{
+    display: flex;
+    padding: 17px 15px 18px 171px;
+} */
+
+.btn2{
+    display: flex;
+    align-items: flex-end;
+    background: linear-gradient(to right, var(--color-green), var(--color-darker-green));
+    color: var(--color-white);
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 19px 49px 19px 18px;
+    margin-left: 404px;
+}
+
+
+
+.group-images-main{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
 
