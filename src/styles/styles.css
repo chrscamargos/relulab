@@ -49,18 +49,35 @@ main{
 
 }
 
-.biolab-title {
+.biolab-titles {
     color: var(--color-secondary);
     font-size: 64px;
     font-weight: bold;
+    font-family:var( --font-primary);
+    line-height: 48px;
+
 }
 
-.biolab-title > span{
+.biolab-titles > span{
     color: var(--color-green);
+    font-family: var(--font-primary);
+    font-weight: bold;
     width: 248px;
     height: 50px;
-    font-size: 32px;
-    
+    font-size: 32px;        
+    font-family:var( --font-primary);
+
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column; /* ISSO resolve */
+    gap: 30px;
+}
+
+.btn-group {
+    display: flex;
+    gap: 40px;
 }
 
 .btn1{
@@ -89,8 +106,9 @@ main{
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
-    padding: 19px 49px 19px 18px;
-    margin-left: 404px;
+    padding: 19px 20px 19px 18px;
+    /* margin-left: 404px; */
+    gap: 20px;
 }
 
 
