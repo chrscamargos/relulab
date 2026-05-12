@@ -189,12 +189,13 @@ main{
     gap: 24px;
     padding: 60px 100px;
     justify-content: center;
+    cursor: pointer;
  }
 
  .card-medico{
     position: relative;
     border-radius: 16px;
-    overflow: hidden;
+
     flex: 1;
     max-width: 540px;
  }
@@ -252,5 +253,81 @@ main{
     display: block;
 }
 
-/* seção de pesquisa */
+/* seção de inovacao */
 
+
+.secao-inovacao {
+    display: flex;           
+    align-items: center;     
+    gap: 60px;               
+    padding: 60px 100px;     
+}
+
+
+.inovacao-content {
+    display: flex;
+    flex-direction: column;  
+    gap: 32px;               
+    max-width: 520px;  
+    margin-left: 100px;   
+}
+
+.inovacao-content .botao-saiba-mais{
+    margin-right: 150px;
+}
+
+.inovacao-title {
+    font-family: var(--font-primary);
+    color: var(--color-secondary);
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.2; }      
+
+.icon-inovacao {
+    display: flex;           
+    align-items: flex-start; 
+    gap: 16px;     
+              
+}
+
+
+
+.icon-inovacao img {
+    width: 40px;             
+    flex-shrink: 0;          
+}
+
+.icon-inovacao h4 {
+    font-family: var(--font-primary);
+    color: var(--color-secondary);
+    font-size: 30px;
+    margin: 0 0 4px 0; }     
+
+.icon-inovacao p {
+    font-family: var(--font-primary);
+    color: #525C60;
+    font-size: 20px;
+    line-height: 1.6;        
+    margin: 0;
+}
+
+.botao-saiba-mais {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-self: flex-end;   
+    background: linear-gradient(to right, var(--color-secondary), var(--color-alt-blue));
+    color: white;
+    font-family: var(--font-primary);
+    font-weight: bold;
+    font-size: 16px;
+    padding: 14px 28px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.img-pesquisa img{
+    margin: -100px;
+}
