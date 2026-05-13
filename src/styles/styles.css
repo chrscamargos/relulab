@@ -112,6 +112,8 @@ main{
     align-items: end;
 }
 
+/* Seção de pilares de Nossa missão */
+
 .nossa-missao{
     display: flex;
     text-align: center;
