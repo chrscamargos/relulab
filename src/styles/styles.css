@@ -36,7 +36,6 @@ header nav{
 main{
     background-image: url(../assets/images/HomeBiolab.svg);
     height: 100vh;
-    /* display: none; */
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -48,8 +47,6 @@ main{
     align-items: center;
     justify-content: space-between;
     padding: 60px 100px;
-    /* margin-right: 880px;;
-    margin-left: 140px; */
 
 }
 
@@ -75,7 +72,7 @@ main{
 
 .content-left {
     display: flex;
-    flex-direction: column; /* ISSO resolve */
+    flex-direction: column; 
     gap: 30px;
 }
 
@@ -92,14 +89,9 @@ main{
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
-    padding: 19px 20px 19px 18px;
+    padding: 10px 20px 10px 18px;
     gap:  20px;
 }
-
-/* .icon-seta-horizontal{
-    display: flex;
-    padding: 17px 15px 18px 171px;
-} */
 
 .btn2{
     display: flex;
@@ -111,7 +103,6 @@ main{
     border-radius: 10px;
     cursor: pointer;
     padding: 19px 20px 19px 18px;
-    /* margin-left: 404px; */
     gap: 20px;
 }
 
@@ -120,8 +111,6 @@ main{
     justify-content: flex-end;
     align-items: end;
 }
-
-/* Seção de pilares de Nossa missão */
 
 .nossa-missao{
     display: flex;
@@ -305,7 +294,7 @@ main{
 
 .icon-inovacao p {
     font-family: var(--font-primary);
-    color: #525C60;
+    color: var(--color-gray-text);
     font-size: 20px;
     line-height: 1.6;        
     margin: 0;
@@ -384,5 +373,87 @@ main{
 
 /* Footer */
 
+.biolab-logo-footer{
+    display: flex;
+    padding: 50px;
+}
 
+.footer-biolab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.biolab-logo-footer{
+    display: flex;
+    align-items: center;
+
+}
+
+.texts-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 200px;
+    gap: 350px;
+}
+
+.contato-footer{
+    display: flex;
+    flex-direction: column;
+    color: var(--color-gray-text);
+    gap: 24px;
+}
+
+.contato-footer h1{
+    color: var(--color-alt-blue);
+}
+
+.contato-footer span{
+    font-weight: bold;
+}
+
+.links-footer h1{
+    color: var(--color-alt-blue);
+    gap: 20px;
+}
+ .links-footer{
+    color: var(--color-gray-text);
+    line-height: 45px;
+ }
+
+.footer-images{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    padding: 50px 100px;
+}
+
+.biolab-selos{
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    cursor: pointer;
+}
+.biolab-studios-casa{
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+    cursor: pointer;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 80%;
+    border-top: 1px solid #DBDBDB;
+    color: var(--color-gray-text);
+    font-size: 14px;
+}
+
+.copyright span{
+    font-weight: bold;
+    border-top: var(--color-gray);
+}
