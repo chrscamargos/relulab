@@ -12,6 +12,6 @@ relulab/
 ├── src/
 │   ├── assets/
 │   │   └── images/
-│   ├── styles/
+│   ├── styles/style.css/global.css
 │   └── index.html
 ├── README.md
