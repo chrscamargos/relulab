@@ -2,7 +2,7 @@
 
 Landing page da Biolab criada para avaliação de LIMA.
 
-Linguagens usadas:
+Linguagens utilizadas:
 HTML e CSS
 
 Estrutura:
@@ -11,7 +11,9 @@ Estrutura:
 relulab/
 ├── src/
 │   ├── assets/
-│   │   └── images/
-│   ├── styles/style.css/global.css
-│   └── index.html
-├── README.md
+│   │   └── images/       
+│   ├── styles/
+│   │   ├── styles.css     
+│   │   └── global.css    
+├── index.html             
+├── README.md             
